@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание на неделю</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+
+        }
+        .schedule {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .day {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .time {
+            font-weight: bold;
+        }
+        .event {
+            margin-top: 5px;
+            background-color: #fff;
+            color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            grid-column: span 3;
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <img src="like.jpg" width="100" height="100" alt="like">
+  
+   
+<h1 class="header">Расписание на неделю</h1>
+
+<div class="schedule">
+    <div class="day">
+        <h2>Понедельник</h2>
+        <div class="event">
+            <span class="time">9:00 - 10:00</span><br>
+            Лекция по математике
+        </div>
+        <div class="event">
+            <span class="time">10:30 - 11:30</span><br>
+            Практика по физике
+        </div>
+    </div>
+    <div class="day">
+        <h2>Вторник</h2>
+        <div class="event">
+            <span class="time">10:00 - 11:00</span><br>
+            Практика по программированию
+        </div>
+    <div class="event">
+        <span class="time">11:20 - 12:20</span><br>
+         Лекция, Мультимедиа технологии и компьютерная графика
+    </div>
+    </div>
+    <div class="day">
+        <h2>Среда</h2>
+        <div class="event">
+            <span class="time">11:00 - 12:00</span><br>
+            Лекция, Алгоритмизация и технологии программирования
+        </div>
+    </div>
+    <div class="day">
+        <h2>Четверг</h2>
+        <div class="event">
+            <span class="time">12:00 - 13:00</span><br>
+            Лекция, Теория информационных процессов и систем 
+        </div>
+    </div>
+    <div class="day">
+        <h2>Пятница</h2>
+        <div class="event">
+            <span class="time">14:00 - 15:00</span><br>
+            Лекция, Методы и средства проектирования информационных систем и технологий 
+        </div>
+    </div>
+    <div class="day">
+        <h2>Суббота</h2>
+        <div class="event">
+            <span class="time">10:00 - 12:00</span><br>
+            Лекция, Физика
+        </div>
+    </div>
+    <div class="day">
+        <h2>Воскресенье</h2>
+        <div class="event">
+            <span class="time">-</span><br>
+            Выходной
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+.
